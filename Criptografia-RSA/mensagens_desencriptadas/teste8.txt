@@ -1,0 +1,36 @@
+multiplicação matricial: 
+
+a multiplicação matricial é muito importante nos estudos das matrizes
+e também em outras disciplinas que usam matrizes, como a álgebra linear
+por exemplo, vamos ver agora esse conceito tão importante:
+
+seja A e B as matrizes
+
+| a11 a12 |   | b11 b12 |
+| a21 a22 | e | b21 b22 | respectivamente, nós só podemos multiplicar matrizes
+
+se, e somente se, a quantidade de colunas da matriz multiplicando à esquerda for igual
+a quantidade de linhas da matriz multiplicando à direita, seja a matriz à esquerda de tamanho
+
+nxm e da multiplicando à diretia mxr, a mtriz resultante desse produto é a matriz de tamnaho nxr.
+
+como fazer a multiplicação matricial:
+
+se multiplicarmos A*B = | (a11*b11 + a12*b21) (a11*b12 + a12*b22) |
+                        | (a21*b11 + a22*b21) (a21*b12 + a22*b22) |
+
+seja A: | 2 1 | e seja b: | 17 |
+        | 1 4 |           | 19 |
+
+temos que A*B:
+
+| 2 1 || 17 | 
+| 1 4 || 19 | 
+
+= 
+
+| 53 | 
+| 93 | 
+
+note que esse foi só um exemplo, haja visto que seria complexo representar so somátorios sem usar a notação
+adequada, omiti a definição formal de multiplicação matricial e trouxe apenas um exemplo.

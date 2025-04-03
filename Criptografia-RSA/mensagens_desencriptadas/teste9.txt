@@ -1,0 +1,48 @@
+um clássico da programção é printar a frase "hello world!" quando estamos aprendendo uma
+linguagem nova, sendo assim, vamos aprender a fazer em algumas linguagens.
+
+em c:
+
+#include <stdio.h>
+
+int main(int argc, char * argv[]){
+    printf("hello world!\n");
+    return 0;
+}
+
+em c++:
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    cout << "hello world! << endl;
+    return 0;
+}
+
+em python:
+
+print("hello world!")
+
+em R:
+
+print("hello world!")
+
+em java:
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+
+em javascript:
+
+console.log("hello world!")
+
+em kotlin:
+
+fun main(){
+    println("hello world!")
+}
